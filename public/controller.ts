@@ -20,8 +20,8 @@ module app {
             alert('this alerts!');
         };
 
-        public setStorage = (key: string, value: any) :void => {
-            this.appStorage.put(key, value);
+        public setStorage = (key: string) :void => {
+            this.appStorage.put(key, Math.floor(Math.random() * 100));
         };
 
         public getStorage = (key: string) :void => {
