@@ -12,3 +12,6 @@ Sample Angular Project using TypeScript
    
 ### Building
 gulp
+
+### To View
+Load the public/index.html in your browser
